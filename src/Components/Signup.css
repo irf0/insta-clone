@@ -1,0 +1,14 @@
+
+ .signup-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+ }
+ .signup-input{
+  border-radius: 0%;
+    margin-top: 3px;
+    width: 100%;
+    background-color: rgb(244, 245, 245);
+ }

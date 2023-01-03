@@ -1,0 +1,39 @@
+
+@media only screen and (max-width: 600px) {
+.mobile-footer{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    vertical-align: baseline;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 6%;
+    padding-left: 15%;
+    padding-right: 15%;
+}   
+}
+.header-items{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: calc(908px + 40px);
+    width: 100%;
+    z-index: 10;
+}
+@media only screen and (max-width: 600px) {
+  .fa-regular{
+   margin: 20%;
+   font-size: 1.5rem;
+  }
+  .fa-solid{
+    /* margin: 20%; */
+   font-size: 1.5rem;
+  }
+
+  }

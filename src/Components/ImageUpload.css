@@ -1,0 +1,23 @@
+#upload-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+#upload-input::before{
+    content: "Choose";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: .5rem;
+    
+    }
+
+#upload-input{
+   background-color: rgb(71, 71, 242);
+    font-family: sans-serif;
+    height: 40px;
+     width: 80px;
+     color: white;
+     justify-content: center;
+     align-items: center;
+}
